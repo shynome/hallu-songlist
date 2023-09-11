@@ -5,7 +5,7 @@
 <div class="hallu d-flex align-items-center justify-content-center my-3">
 	<div>
 		<a href="https://space.bilibili.com/3493118494116797" title="哈鹿hallu个人主页" class="img">
-			<img src="{base}/favicon.jpg" alt="哈鹿头像" />
+			<img src="{base}/favicon.jpg" alt="哈鹿头像" width="300" height="300" />
 		</a>
 	</div>
 	<div class="p-3">
