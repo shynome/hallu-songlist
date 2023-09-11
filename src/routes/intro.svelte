@@ -35,5 +35,6 @@
 	img {
 		max-width: 100%;
 		width: auto;
+		height: auto;
 	}
 </style>
