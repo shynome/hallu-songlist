@@ -29,7 +29,7 @@
 	}
 </script>
 
-<div class="toast-container position-fixed top-0 end-0 p-3">
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
 	{#each $msgs as { msg, id } (id)}
 		<div class="toast" role="alert" aria-live="assertive" aria-atomic="true" use:toast>
 			<div class="toast-header">
