@@ -8,6 +8,7 @@
 		return okSongs[i].name
 	}
 	let song: string = randomSong()
+	import { tick } from 'svelte'
 </script>
 
 <div class="my-3">
@@ -31,8 +32,10 @@
 			on:svelte-copy={() => push(song)}
 			on:click={function () {
 				song = randomSong()
-				// @ts-ignore
-				this.dispatchEvent(new CustomEvent('do-svelte-copy'))
+				tick().then(() => {
+					// @ts-ignore
+					this.dispatchEvent(new CustomEvent('do-svelte-copy'))
+				})
 			}}
 		>
 			随机一首
